@@ -1,0 +1,20 @@
+a="listen"
+b="silent"
+s=0
+if(len(a)==len(b)):
+ n=len(a)
+ for i in range(n) :
+  for  j in range (n):
+    if (a[i]==b[j]):
+     s=s+1
+     break
+ if(s==n):   
+  print("it is a anagram")
+ else  :
+  print("it is not a anagaram")
+
+
+
+output
+
+it is a anagram
